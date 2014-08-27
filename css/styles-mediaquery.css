@@ -1,0 +1,441 @@
+@media only screen and (min-width: 751px) and (max-width:1215px) {
+	nav {
+		font-size: 28px;
+	}
+
+	nav ul li a {
+		padding-right:10px;
+		padding-left:10px;
+	}
+
+	.linkstobuy {
+		margin-top:15px;
+		margin-bottom:30px;
+		text-align:center;
+	}
+
+	.linkstobuy a{
+		color:black;
+		text-decoration:none;
+		background-color:rgba(255,255,255,0.7);
+		padding:10px;
+		margin-left:5px;
+		margin-right:5px;
+		font-size:20px;
+	}
+
+	.linkstobuy a:hover{
+		color:black;
+		text-decoration:none;
+		background-color:rgba(255,255,255,1);
+	}
+
+	.cdcover {
+		float:left;
+		width:150px;
+		border:none;
+		margin:5px;
+	}
+
+}
+
+@media only screen and (max-width: 1070px) {
+	.bandphotosize {
+		width:250px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	#container {	
+		margin-bottom: 10px;
+		float:left;
+		width:100%;	
+		position:relative;
+		overflow:hidden;	
+		}
+
+	.content {
+		font-family: 'League Gothic';
+		background-color:rgba(255,255,255,0.7);
+		padding:20px 10px 80px 10px;
+		margin: 0 10px 10px 10px;
+		}
+
+	#leftbox {
+		width: 300px;
+		height:10px;
+		}
+
+	.centering {
+/*		position:absolute;*/
+		display:block;
+		top:auto;
+		margin-top:40px;
+		margin-left:10px;
+		}
+
+	.bandname {
+		display:inline;
+		margin:0;
+		opacity:.8;
+	}
+
+	#more {
+		position:fixed;
+		top:40px;
+		left:310px;
+		height:55px;
+		width:55px;
+		opacity:.8;
+	}
+
+	#play {
+		visibility:hidden;
+	}	
+
+	#rightbox {
+		display:inline;
+		float:left;
+		margin:120px 0 0 0;
+		width:100%;
+		overflow:scroll;
+		}
+
+	#belownav {
+	}
+
+	nav {
+		font-size: 24px;
+		color:black;
+		text-transform:uppercase;
+		text-align:center;
+	}
+
+	nav ul li a {
+		padding-right:7px;
+		padding-left:7px;
+		height:30px;
+		color: black;
+		text-align: center;
+		text-decoration:none;
+	}
+
+	.cdcover {
+		float:left;
+		width:100px;
+		border:none;
+		margin:5px;
+	}
+
+	.linkstobuy a{
+		color:black;
+		text-decoration:none;
+		background-color:rgba(255,255,255,0.7);
+		padding:8px;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:18px;
+		white-space: nowrap;
+		line-height:250%;
+	}
+
+	.cdcoverselected {
+		outline: 5px solid black;
+	}
+
+	.cdcover:hover {
+		outline: 5px solid white;
+	}
+
+	.h1 {
+		font-size: 22px;
+		padding:2px 0 2px 0;
+	}
+
+	.h2 {
+		font-size: 22px;
+		padding:2px 0 2px 0;
+	}
+
+	.h3 {
+		font-size: 22px;
+		padding:10px 0 2px 0;
+	}
+
+	.h4 {
+		font-size: 22px;
+	}
+
+	.h5 {
+	font-size: 22px;
+	}
+
+	.p1{
+		font-size: 20px;
+	}
+
+	.p2 {
+		font-size: 16px;
+	}
+
+	.p3 {
+		font-size: 16px;
+	}
+
+	.p4{
+		font-size: 16px;
+	}
+
+	.p5{
+	font-size: 16px;
+	}
+
+	.p6{
+	font-size: 16px;
+	}
+
+	.pquote{
+	font-size: 14px
+	}
+
+	.pspacing {
+		height:6px;
+	}
+
+	.videoformat {
+		padding: 10px 0 10px 0;
+	}
+
+	.email {
+		position:absolute;
+		bottom:40px;
+		right:200px;
+	}
+
+	.tumblr {
+		position:absolute;
+		bottom:40px;
+		right:150px;
+	}
+
+	.facebook {
+		position:absolute;
+		bottom:40px;
+		right:100px;
+	}
+
+	.soundcloud {
+		position:absolute;
+		bottom:40px;
+		right:50px;
+	}
+	.bandphotosize {
+		width:250px;
+	}
+
+}
+
+/*
+iphone screen height -- stopped scrolling?
+news.
+ */
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 750px) and (device-pixel-ratio: 2); {
+		#container {	
+		margin-bottom: 10px;
+		float:left;
+		width:100%;	
+		position:relative;
+		overflow:hidden;	
+		}
+
+	.content {
+		font-family: 'League Gothic';
+		background-color:rgba(255,255,255,0.7);
+		padding:20px 10px 80px 10px;
+		margin: 0 10px 10px 10px;
+		}
+
+	#leftbox {
+		display:block;
+		width: 300px;
+		height:10px;
+		}
+
+	.centering {
+		position:fixed;
+		display:block;
+		top:auto;
+		margin-top:40px;
+		margin-left:10px;
+		}
+
+	.bandname {
+		font-size: 90px;
+		display:inline;
+		margin:0;
+		opacity:.8;
+	}
+
+	#more {
+		position:fixed;
+		opacity:.8;
+		top:50px;
+		left:445px;
+		height:65px;
+		width:65px;
+	}
+
+	#play {
+		visibility:hidden;
+	}	
+
+	#rightbox {
+		display:inline;
+		float:left;
+		margin:140px 0 0 0;
+		width:100%;
+		overflow:scroll;
+		}
+
+	#belownav {
+	}
+
+	nav {
+		font-size: 48px;
+		color:black;
+		text-transform:uppercase;
+		text-align:center;
+	}
+
+	nav ul li a {
+		padding-right:15px;
+		padding-left:15px;
+		height:30px;
+		color: black;
+		text-align: center;
+		text-decoration:none;
+	}
+
+	.cdcover {
+		float:left;
+		width:200px;
+		border:none;
+		margin:5px;
+	}
+
+	.linkstobuy a{
+		padding:15px;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:32px;
+		white-space: nowrap;
+		line-height:250%;
+	}
+
+	.cdcoverselected {
+		outline: 5px solid black;
+	}
+
+	.cdcover:hover {
+		outline: 5px solid white;
+	}
+
+	.h1 {
+		font-size: 40px;
+	}
+
+	.h2 {
+		font-size: 36px;
+	}
+
+	.h3 {
+		font-size: 36px;
+	}
+
+	.h4 {
+		font-size: 36px;
+	}
+
+	.h5 {
+		font-size: 36px;
+		}
+
+	.p1{
+		font-size: 36px;
+	}
+
+	.p2 {
+		font-size: 26px;
+	}
+
+	.p3 {
+		font-size: 24px;
+	}
+
+	.p4{
+		font-size: 26px;
+		padding-top:20px;
+	}
+
+	.p5{
+		font-size: 32px;
+	}
+
+	.p6{
+		font-size: 26px;
+	}
+
+	.pquote{
+	font-size: 24px
+	}
+
+	.pspacing {
+		height:10px;
+	}
+
+
+	.videoformat {
+		padding: 10px 0 10px 0;
+	}
+
+	.email {
+		position:absolute;
+		width:50px;
+		height:50px;
+		bottom:40px;
+		right:220px;
+	}
+
+	.tumblr {
+		position:absolute;
+		width:50px;
+		height:50px;
+		bottom:40px;
+		right:160px;
+	}
+
+	.facebook {
+		position:absolute;
+		width:50px;
+		height:50px;
+		bottom:40px;
+		right:100px;
+	}
+
+	.soundcloud {
+		position:absolute;
+		width:50px;
+		height:50px;
+		bottom:40px;
+		right:40px;
+	}
+
+	.bandphotosize {
+		width:500px;
+	}
+ 
+}

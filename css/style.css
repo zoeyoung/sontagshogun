@@ -1,0 +1,397 @@
+/* CSS Document */
+
+/*----------------------------------------------------------------------------- 
+Fonts
+-----------------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----------------------------------------------------------------------------- 
+Background
+-----------------------------------------------------------------------------*/
+
+body {
+	background: url('../images/sontag_shogun_background_jesse_perlstein.jpg') no-repeat center center fixed;   
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;  
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.jpg', sizingMethod='scale')";  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.jpg', sizingMethod='scale');  
+}
+
+/*----------------------------------------------------------------------------- 
+Layout
+-----------------------------------------------------------------------------*/
+
+#container {	
+	margin-bottom: 10px;
+	float:left;
+	width:100%;			/* width of whole page */
+	position:relative;
+	overflow:hidden;	
+}
+
+#leftbox {
+	width:400px;
+	float:left;
+}
+
+#rightbox {
+	margin-left:400px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+Left sidebar
+-----------------------------------------------------------------------------*/
+
+.centering {
+	position:fixed;
+	top:45%;
+	margin-top:-45px;
+}
+
+.bandname {	
+	font-family: 'League Gothic';
+	font-size: 62px;
+	color:white;
+	opacity:0.7;
+	text-transform:uppercase;
+	margin-left:50px;
+	margin-right:40px;
+	margin-bottom:10px;
+}
+
+#play {
+	display:inline-block;
+	margin-left:114px;
+	margin-right:22px;
+	opacity:0.7;
+	height:60px;
+	width:60px;
+}
+
+.playicon{
+	background-image: url('../images/play.png');
+}
+
+#more{
+	display:inline-block;
+	opacity:0.7;
+	height:60px;
+	width:60px;
+}
+
+.plus{
+	background-image: url('../images/plus.png') ;
+	background-size:contain;
+}
+
+.minus{
+	background-image: url('../images/minus.png');
+	background-size:contain;
+	height:60px;
+	width:60px;
+}
+
+
+#play:hover, #more:hover {
+	opacity:1.0;
+}
+
+#bandcamp {
+	position:fixed;
+	bottom:20px;
+	left:5px;
+	border: 0; 
+	width: 370px; 
+	height: 120px; 
+}
+
+/*----------------------------------------------------------------------------- 
+Content Page Layout
+-----------------------------------------------------------------------------*/
+
+.content {
+	font-family: 'League Gothic';
+	background-color:rgba(255,255,255,0.7);
+	padding: 20px 50px 80px 50px;
+	margin: 50px 50px 50px 0;
+	min-height:500px;
+	overflow:scroll;
+}
+
+nav {
+	font-size: 36px;
+	color:black;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	padding-right:25px;
+	padding-left:25px;
+	height:30px;
+	color: black;
+	text-align: center;
+	text-decoration:none;
+	line-height:130%;
+}
+
+nav ul li a:hover {
+	color:#FFFFFF;
+	}
+
+.email {
+	position:absolute;
+	bottom:70px;
+	right:240px;
+}
+
+.tumblr {
+	position:absolute;
+	bottom:70px;
+	right:190px;
+}
+
+.facebook {
+	position:absolute;
+	bottom:70px;
+	right:140px;
+}
+
+.soundcloud {
+	position:absolute;
+	bottom:70px;
+	right:90px;
+}
+
+.soundcloud:hover, .facebook:hover, .tumblr:hover, .email:hover{
+	opacity:.7;
+}
+
+/*-----------------------------------------------------------------------------
+Content Formatting
+-----------------------------------------------------------------------------*/
+.albumformat {
+	text-align:center;
+}
+
+#albums li {
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:20px;
+	display:inline-block;
+}
+
+.cdcover {
+	float:left;
+	width:200px;
+	border:none;
+	margin:10px;
+}
+
+.cdinfo {
+	position:absolute;
+	display:none;
+}
+
+.cdcoverselected {
+	outline:8px solid black;
+}
+
+.cdcover:hover {
+	outline:8px solid white;
+}
+
+.storycontent{
+	overflow:scroll;
+}
+
+.h1 {
+	font-size: 30px;
+	color:black;
+	text-transform:uppercase;
+	padding:10px 0 10px 0;
+	text-align:center;
+}
+
+.h2 {
+	font-size: 30px;
+	color:black;
+	text-transform:uppercase;
+	padding:5px 0 5px 0;
+	text-align:center;
+}
+
+.h3 {
+	font-size: 30px;
+	color:black;
+	text-transform:uppercase;
+	padding:15px 0 5px 0;
+	text-align:center;
+}
+
+.h4 {
+	font-size: 30px;
+	color:black;
+	text-transform:uppercase;
+	padding-top:20px;
+	text-align:center;
+}
+
+.h5 {
+	font-size: 30px;
+	color:black;
+	text-transform:uppercase;
+	padding-top:15px;
+}
+
+.p1{
+	font-size: 24px;
+	color:black;
+	padding:15px 0 10px 0;
+	text-align:center;
+}
+
+.p2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 18px;
+	color:black;
+	line-height:130%;
+}
+
+.p3 {
+	font-size: 18px;
+	color:#585858;
+	text-align:center;
+}
+
+.p4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 18px;
+	color:black;
+	line-height:130%;
+	padding-top: 10px;
+}
+
+.p5{
+	font-size: 18px;
+	color:#585858;
+	padding-bottom:10px;
+}
+
+.p6{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-size: 18px;
+	color:black;
+	line-height:130%;
+}
+
+.pquote{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	padding: 8px 0px 0px 40px;
+	line-height:130%;
+}
+
+.pspacing {
+	height:8px;
+}
+
+#skformat {
+	margin-top: 20px;
+}
+
+.videoformat {
+	padding: 10px 10px 10px 10px;
+}
+
+.pressformat a{
+	color:black;
+	text-decoration:none;
+}
+
+.pressformat a:hover{
+	color:white;
+}
+
+.newsmedia {
+	text-align:center;
+}
+
+.bandphoto{
+	text-align: center;
+	padding:10px;
+}
+
+.bandphotosize{
+}
+
+.albumdetail {
+	display:none;
+}
+
+.linkstobuy {
+	margin-top:0;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.linkstobuy a{
+	color:black;
+	text-decoration:none;
+	background-color:rgba(255,255,255,0.7);
+	padding:15px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:20px;
+	white-space: nowrap;
+	line-height:250%;
+}
+
+.linkstobuy a:hover{
+	color:black;
+	text-decoration:none;
+	background-color:rgba(255,255,255,1);
+}
+
+/*----------------------------------------------------------------------------- 
+Javascript
+-----------------------------------------------------------------------------*/
+
+.hidden {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+
+.hide {
+	display:none;
+}
+
+.rotate {
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */
+}
