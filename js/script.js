@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 
 
-var showHide =function (){
+var showHide = function (){
 	$('#more').click(function(event){
 		event.preventDefault();
 
@@ -179,4 +179,4 @@ var slideAlbums = function(){
 		}
 		return false;
 	});
-	};
+};
