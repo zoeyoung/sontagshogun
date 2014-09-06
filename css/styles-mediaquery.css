@@ -36,10 +36,9 @@
 		border:none;
 		margin:5px;
 	}
-
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (min-width: 751px) and (max-width: 1070px) {
 	.bandphotosize {
 		width:250px;
 	}
@@ -62,41 +61,40 @@
 		}
 
 	#leftbox {
-		width: 300px;
-		height:10px;
 		}
 
 	.centering {
-/*		position:absolute;*/
+		position: relative;
 		display:block;
-		top:auto;
 		margin-top:40px;
 		margin-left:10px;
 		}
 
 	.bandname {
 		display:inline;
+		float: left;
 		margin:0;
 		opacity:.8;
 	}
+	#buttons {
+		float: left;
+	}
 
 	#more {
-		position:fixed;
-		top:40px;
-		left:310px;
 		height:55px;
 		width:55px;
 		opacity:.8;
+		margin-left: 25px;
 	}
 
 	#play {
-		visibility:hidden;
+		display: none;
 	}	
 
 	#rightbox {
 		display:inline;
 		float:left;
-		margin:120px 0 0 0;
+		margin:40px 0 0 0;
 		width:100%;
 		overflow:scroll;
 		}
@@ -147,12 +145,7 @@
 		outline: 5px solid white;
 	}
 
-	.h1 {
-		font-size: 22px;
-		padding:2px 0 2px 0;
-	}
-
-	.h2 {
+	.h1, .h2 {
 		font-size: 22px;
 		padding:2px 0 2px 0;
 	}
@@ -170,32 +163,16 @@
 	font-size: 22px;
 	}
 
-	.p1{
+	.p1 {
 		font-size: 20px;
 	}
 
-	.p2 {
+	.p2, .p3, .p4, .p5, .p6 {
 		font-size: 16px;
 	}
 
-	.p3 {
-		font-size: 16px;
-	}
-
-	.p4{
-		font-size: 16px;
-	}
-
-	.p5{
-	font-size: 16px;
-	}
-
-	.p6{
-	font-size: 16px;
-	}
-
-	.pquote{
-	font-size: 14px
+	.pquote {
+		font-size: 14px
 	}
 
 	.pspacing {
@@ -232,19 +209,11 @@
 	.bandphotosize {
 		width:250px;
 	}
-
 }
 
-/*
-iphone screen height -- stopped scrolling?
-news.
- */
-
-
-
 /* Smartphones (portrait and landscape) ----------- */
-@media screen and (max-width: 750px) and (device-pixel-ratio: 2); {
-		#container {	
+@media screen and (max-width: 750px) and (min-resolution: 2dppx) {
+	#container {	
 		margin-bottom: 10px;
 		float:left;
 		width:100%;	
@@ -437,5 +406,4 @@ news.
 	.bandphotosize {
 		width:500px;
 	}
- 
 }
