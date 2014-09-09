@@ -214,6 +214,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
 	#container {	
 		margin-bottom: 10px;
 		float:left;
@@ -230,9 +231,6 @@
 		}
 
 	#leftbox {
-		display:block;
-		width: 300px;
-		height:10px;
 		}
 
 	.centering {
@@ -249,6 +247,10 @@
 		margin:0;
 		opacity:.8;
 	}
+
+/*		#buttons {
+		float: left;
+	}*/
 
 	#more {
 		position:fixed;
