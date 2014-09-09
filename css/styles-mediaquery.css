@@ -221,17 +221,17 @@
 		width:100%;	
 		position:relative;
 		overflow:hidden;	
-		}
+	}
 
 	.content {
 		font-family: 'League Gothic';
 		background-color:rgba(255,255,255,0.7);
 		padding:20px 10px 80px 10px;
 		margin: 0 10px 10px 10px;
-		}
+	}
 
 	#leftbox {
-		}
+	}
 
 	.centering {
 		position:relative;
@@ -239,29 +239,20 @@
 		top:auto;
 		margin-top:40px;
 		margin-left:10px;
-		}
+	}
 
 	.bandname {
 		font-size: 90px;
 		display:inline;
+		white-space:nowrap;
 		float:left;
 		margin:0;
 		opacity:.8;
 	}
 
-#buttons {
-		float:right;
-		margin-right:150px;
+	#buttons {
+			float:left;
 	}
-
-/*	#more {
-		position:fixed;
-		opacity:.8;
-		top:50px;
-		left:445px;
-		height:65px;
-		width:65px;
-	}*/
 
 	#play {
 		visibility:hidden;
@@ -273,7 +264,7 @@
 		margin:140px 0 0 0;
 		width:100%;
 		overflow:scroll;
-		}
+	}
 
 	#belownav {
 	}
