@@ -236,7 +236,7 @@
 		}
 
 	.centering {
-		position:fixed;
+		position:relative;
 		display:block;
 		top:auto;
 		margin-top:40px;
