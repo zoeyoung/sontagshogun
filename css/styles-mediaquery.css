@@ -244,22 +244,24 @@
 	.bandname {
 		font-size: 90px;
 		display:inline;
+		float:left;
 		margin:0;
 		opacity:.8;
 	}
 
-/*		#buttons {
-		float: left;
-	}*/
+#buttons {
+		float:right;
+		margin-right:150px;
+	}
 
-	#more {
+/*	#more {
 		position:fixed;
 		opacity:.8;
 		top:50px;
 		left:445px;
 		height:65px;
 		width:65px;
-	}
+	}*/
 
 	#play {
 		visibility:hidden;
