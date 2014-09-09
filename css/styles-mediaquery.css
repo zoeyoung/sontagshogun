@@ -212,7 +212,8 @@
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media screen and (max-width: 750px) and (min-resolution: 2dppx) {
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	#container {	
 		margin-bottom: 10px;
 		float:left;
