@@ -235,23 +235,27 @@
 
 	.centering {
 		position:relative;
-		display:block;
+		display:inline-block;
 		top:auto;
 		margin-top:40px;
 		margin-left:10px;
 	}
 
 	.bandname {
-		font-size: 90px;
-		display:inline;
+		font-size: 120px;
 		white-space:nowrap;
-		float:left;
+		text-align:center;
 		margin:0;
 		opacity:.8;
 	}
 
 	#buttons {
-			float:left;
+	}
+
+	#more{
+		text-align:center;
+		float:left;
+		margin:0px 0 0 200px;
 	}
 
 	#play {
@@ -261,7 +265,7 @@
 	#rightbox {
 		display:inline;
 		float:left;
-		margin:140px 0 0 0;
+		margin:50px 0 0 0;
 		width:100%;
 		overflow:scroll;
 	}
