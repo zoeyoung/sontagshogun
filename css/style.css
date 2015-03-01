@@ -21,13 +21,13 @@ Background
 -----------------------------------------------------------------------------*/
 
 body {
-	background: url('../images/sontag_shogun_background_jesse_perlstein.jpg') no-repeat center center fixed;   
+	background: url('../images/sontag_shogun_background_jesse_perlstein.png') no-repeat center center fixed;   
   -webkit-background-size: cover;  
   -moz-background-size: cover;  
   -o-background-size: cover;  
   background-size: cover;  
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.jpg', sizingMethod='scale')";  
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.jpg', sizingMethod='scale');  
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.png', sizingMethod='scale')";  
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/sontag_shogun_background_jesse_perlstein.png', sizingMethod='scale');  
 }
 
 /*----------------------------------------------------------------------------- 
