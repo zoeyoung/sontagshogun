@@ -334,6 +334,10 @@ Content Formatting
 	height:25px;
 }
 
+.pspacingsmall {
+	height:10px;
+}
+
 #skformat {
 	margin-top: 20px;
 }
